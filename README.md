@@ -4,7 +4,7 @@
 
 Browserify transform for [extract-svg-path](https://www.npmjs.org/package/extract-svg-path). Allows you to inline SVG paths from a file.
 
-```
+```js
 var parse = require('parse-svg-path')
 var svg = require('extract-svg-path')(__dirname + '/shape.svg')
 var path = parse(svg)
