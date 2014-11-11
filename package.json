@@ -1,0 +1,44 @@
+{
+  "name": "extractify-svg-path",
+  "version": "1.0.0",
+  "description": "browserify transform for extract-svg-path",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "extract-svg-path": "^1.1.0",
+    "js-string-escape": "^1.0.0",
+    "static-module": "^1.0.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "browserify": "^6.3.2",
+    "concat-stream": "^1.4.6",
+    "tape": "^3.0.3",
+    "vm": "0.0.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "extract",
+    "svg",
+    "require",
+    "inline",
+    "path",
+    "parse",
+    "shape"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/extractify-svg-path.git"
+  },
+  "homepage": "https://github.com/mattdesl/extractify-svg-path",
+  "bugs": {
+    "url": "https://github.com/mattdesl/extractify-svg-path/issues"
+  }
+}
