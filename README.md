@@ -1,6 +1,12 @@
 # extractify-svg-path
 
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges)
+
+## deprecated
+
+**Deprecated:** Use [extract-svg-path/transform](https://github.com/mattdesl/extract-svg-path) instead.
+
+---
 
 Browserify transform for [extract-svg-path](https://www.npmjs.org/package/extract-svg-path). Allows you to inline SVG paths from a file.
 
